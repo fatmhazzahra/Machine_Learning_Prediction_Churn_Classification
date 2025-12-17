@@ -59,3 +59,27 @@ Berdasarkan pertimbangan biaya di atas, prioritas Stakeholder adalah meminimalis
 1. **PR AUC (Precision–Recall Area Under Curve) :** Digunakan sebagai metrik utama karena mampu mengevaluasi trade-off antara precision dan recall secara menyeluruh pada berbagai nilai threshold, serta lebih representatif untuk imbalanced data
 2. **Recall (Sensitivity):** Fokus utama untuk menangkap sebanyak mungkin pelanggan yang berpotensi *churn*. Semakin tinggi *Recall*, semakin sedikit pelanggan *churn* yang lolos dari deteksi.
 3.  **Precision:** Untuk mengontrol tingkat kesalahan False Positive agar biaya promosi tetap efisien.
+
+## 5 Point Business ML Goals
+1.  **Problem :**
+    Tingginya tingkat *churn* yang tidak terdeteksi secara dini menyebabkan hilangnya pendapatan berulang (*recurring revenue*) dan inefisiensi biaya akuisisi.
+2.  **Data :**
+    Menggunakan data historis perusahaan yang mencakup demografi pelanggan dan riwayat transaksi.
+3.  **ML Objective :**
+    Membangun model klasifikasi biner untuk memprediksi probabilitas seorang pelanggan akan berhenti berlangganan (*churn probability*) di bulan berikutnya.
+4.  **Action :**
+    Mengintegrasikan hasil prediksi kepada tim bisnis/marketing, di mana pelanggan berisiko tinggi untuk *churn* akan diberikan treatment khusus berupa insentif personal, diskon, atau pendekatan *customer service* proaktif.
+5.  **Value :**
+    Menurunkan *Churn Rate*, menyelamatkan pendapatan potensial (*Saved Revenue*), dan meningkatkan efisiensi biaya pemasaran dengan menargetkan retensi hanya pada pelanggan yang benar-benar berisiko.
+
+---
+## Modul yang dibutuhkan untuk menjalankan program:
+lightgbm >= 4.6.0
+imbalanced-learn >= 0.14.0
+pandas >= 2.2.2
+numpy >= 2.0.2
+scikit-learn >= 1.6.1
+xgboost >= 3.1.2
+shap >= 0.50.0
+seaborn >= 0.13.2
+
