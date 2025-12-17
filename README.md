@@ -81,5 +81,9 @@ numpy >= 2.0.2
 scikit-learn >= 1.6.1
 xgboost >= 3.1.2
 shap >= 0.50.0
+
+---
+Author : *Fatimah Azzahra*
+---
 seaborn >= 0.13.2
 
