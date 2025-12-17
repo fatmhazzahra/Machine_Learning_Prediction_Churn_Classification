@@ -72,7 +72,6 @@ Berdasarkan pertimbangan biaya di atas, prioritas Stakeholder adalah meminimalis
 5.  **Value :**
     Menurunkan *Churn Rate*, menyelamatkan pendapatan potensial (*Saved Revenue*), dan meningkatkan efisiensi biaya pemasaran dengan menargetkan retensi hanya pada pelanggan yang benar-benar berisiko.
 
----
 ## Modul yang dibutuhkan untuk menjalankan program:
 lightgbm >= 4.6.0
 imbalanced-learn >= 0.14.0
@@ -81,9 +80,10 @@ numpy >= 2.0.2
 scikit-learn >= 1.6.1
 xgboost >= 3.1.2
 shap >= 0.50.0
-
----
-Author : *Fatimah Azzahra*
----
 seaborn >= 0.13.2
+
+
+Author : **Fatimah Azzahra**
+
+
 
