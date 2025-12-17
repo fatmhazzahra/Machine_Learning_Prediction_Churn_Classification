@@ -74,12 +74,19 @@ Berdasarkan pertimbangan biaya di atas, prioritas Stakeholder adalah meminimalis
 
 ## Modul yang dibutuhkan untuk menjalankan program:
 lightgbm >= 4.6.0
+
 imbalanced-learn >= 0.14.0
+
 pandas >= 2.2.2
+
 numpy >= 2.0.2
+
 scikit-learn >= 1.6.1
+
 xgboost >= 3.1.2
+
 shap >= 0.50.0
+
 seaborn >= 0.13.2
 
 
